@@ -1,0 +1,25 @@
+baseURL = "https://kosli.com/secure-sdlc-process-template/"
+languageCode = "en-us"
+title = "The Secure SDLC Process Template"
+theme = "hugo-book"
+
+[taxonomies]
+  risk = 'risks'
+  level = 'levels'
+
+[params]
+  company = 'AcmePay'
+  csor = 'a compliance system of record'
+  vcs = 'git'
+  vcsHost = 'github'
+  forkLink = 'https://github.com/kosli-dev/devopsctl/fork'
+  logo = 'svg/logo.svg'
+  BookSection = '/'
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
