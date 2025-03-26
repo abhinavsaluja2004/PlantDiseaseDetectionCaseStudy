@@ -1,6 +1,6 @@
-baseURL = "https://kosli.com/secure-sdlc-process-template/"
+baseURL = "https://RootWise.com/SDLCCaseStudy/"
 languageCode = "en-us"
-title = "The Secure SDLC Process Template"
+title = "RootWise SDLC Process Template"
 theme = "hugo-book"
 
 [taxonomies]
