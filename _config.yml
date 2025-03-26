@@ -1,0 +1,41 @@
+# Base site settings
+baseurl: "https://RootWise.com/SDLCCaseStudy/"
+languageCode: "en-us"
+title: "RootWise SDLC Process Template"
+
+# Jekyll theme (replace 'jekyll-theme-minimal' if using another theme)
+theme: jekyll-theme-minimal
+
+# Taxonomies converted to categories/tags or collections if needed
+taxonomies:
+  risk: "risks"
+  level: "levels"
+
+# Custom parameters (available as site.params in templates)
+params:
+  company: "AcmePay"
+  csor: "a compliance system of record"
+  vcs: "git"
+  vcsHost: "github"
+  forkLink: "https://github.com/kosli-dev/devopsctl/fork"
+  logo: "svg/logo.svg"
+  BookSection: "/"
+
+# Markdown rendering settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+
+# Table of contents configuration
+table_of_contents:
+  start_level: 2
+  end_level: 3
+
+# Optional: Default settings for collections (if applicable)
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
